@@ -29,3 +29,18 @@
 - EXTRA CREDIT - Analyze how much money is spent per member
   - Based on how many rides the rider averages per month
   - Based on how many minutes the rider spends on a bike per month
+
+# Execution Azure Data Warehouse Project
+## I. Star Schema Design
+### Image of the star schema I designed based on the relational diagram and the business problems outlined
+![image](https://user-images.githubusercontent.com/114274480/223498439-10375c62-d4ce-470b-9d64-e51735f40259.png)
+## II. Extract Step
+This is screenshot about Azure Blob Storage, include:
+ -  public.payment
+ -  public.rider
+ -  public.trip
+ -  public.station
+ ![image](https://user-images.githubusercontent.com/114274480/223499761-fac82d93-a2b4-415b-a087-dc9a23b2a0d5.png)
+## III. Load Step
+Load data from Azure Blob Storage into external tables in the data warehouses:
+ ![image](https://user-images.githubusercontent.com/114274480/223500572-ba1d22cc-ff81-4ab8-a82a-f796a314dba7.png)
