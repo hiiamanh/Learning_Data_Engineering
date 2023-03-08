@@ -31,6 +31,7 @@
   - Based on how many minutes the rider spends on a bike per month
 
 # Execution Azure Data Warehouse Project
+About data (csv file) is used in project. Can be download at [here](https://video.udacity-data.com/topher/2022/March/622a5fc6_azure-data-warehouse-projectdatafiles/azure-data-warehouse-projectdatafiles.zip)
 ## I. Star Schema Design
 ### Image of the star schema I designed based on the relational diagram and the business problems outlined
 ![image](https://user-images.githubusercontent.com/114274480/223498439-10375c62-d4ce-470b-9d64-e51735f40259.png)
@@ -44,3 +45,4 @@ This is screenshot about Azure Blob Storage, include:
 ## III. Load Step
 Load data from Azure Blob Storage into external tables in the data warehouses:
  ![image](https://user-images.githubusercontent.com/114274480/223500572-ba1d22cc-ff81-4ab8-a82a-f796a314dba7.png)
+ - There are [four separate script files](https://github.com/hiiamanh/Learning_Data_Engineering/tree/develop/Data_Engineer_Project/Project_2_Data_Warehouse/SQL_ScriptCreateExternalTable). The SQL files should create tables using CREATE EXTERNAL TABLE (not just CREATE TABLE). The scripts should point to the four files in Blob Storage from the extract step.
