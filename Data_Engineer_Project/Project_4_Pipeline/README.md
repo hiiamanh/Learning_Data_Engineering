@@ -42,7 +42,8 @@ In the SQL dedicated pool, Create master data tables and payroll transaction tab
 - Create pipelines for Employee, Title, Agency, and year 2021 Payroll transaction data to Synapse Analytics containing the data flows.
 ![image](https://user-images.githubusercontent.com/114274480/230607113-ae520e79-aab6-4f76-aaa0-39889f8d662d.png)
 
-![image](https://user-images.githubusercontent.com/114274480/230607453-492acd8c-4eed-4d07-9569-77ec1e4c8144.png)
+![image](https://user-images.githubusercontent.com/114274480/230608491-b20375a8-e65f-4b1e-bdda-69cf32a443c4.png)
+
 
 - Create Pipeline to load 2021 Payroll data into transaction table in the SQL DB
 ![image](https://user-images.githubusercontent.com/114274480/230607251-134c8f1b-1f03-4e80-9035-bc465516e946.png)
